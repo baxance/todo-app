@@ -1,0 +1,46 @@
+{
+  "name": "class-32-solution-todo",
+  "version": "1.0.0",
+  "description": "Phase 1 Requirements In Phase 1, we’re going to perform some refactoring of the To Do application as built by another team. This application mixes application state and user settings at the top level and passes things around. It was a good proof of concept, but we need to make this production ready.",
+  "keywords": [],
+  "main": "src/index.js",
+  "dependencies": {
+    "@blueprintjs/core": "^3.51.3",
+    "node-sass": "^6.0.1",
+    "react": "17.0.2",
+    "react-bootstrap": "^1.6.1",
+    "react-dom": "17.0.2",
+    "react-if": "^4.0.1",
+    "react-router-dom": "5.2.0",
+    "react-scripts": "4.0.3",
+    "uuid": "^8.3.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/baxance/todo-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/baxance/todo-app/issues"
+  },
+  "homepage": "https://github.com/baxance/todo-app"
+}
